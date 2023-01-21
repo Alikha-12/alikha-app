@@ -1,14 +1,16 @@
 import Me from "./alikaa.jpeg";
 function Hero() {
   return (
-    <section className="bg-white ">
+    <section className="">
       <div className="relative flex">
         <div className="min-h-screen lg:w-1/3" />
         <div className="hidden w-3/4 min-h-screen bg-[#658864] lg:block" />
         <div className="container flex flex-col justify-center w-full min-h-screen px-6 py-10 mx-auto lg:absolute lg:inset-x-0">
-          <h1 className="text-3xl font-semibold text-gray-800 capitalize pl-10 lg:text-6xl ">
+          <h1 className="text-4xl font-semibold text-gray-800 capitalize pl-10 lg:text-6xl ">
             Hey, I'm{" "}
-            <span className="text-[#658864] hover:cursor-pointer">Al</span>
+            <span className="2xl:text-[#658864] text-black hover:cursor-pointer">
+              Al
+            </span>
           </h1>
           <div className="mt-10 lg:mt-20 lg:flex lg:items-center">
             <img
@@ -16,10 +18,10 @@ function Hero() {
               src={Me}
             />
             <div className="mt-8 lg:px-10 lg:mt-0">
-              <h1 className="text-4xl font-semibold text-white">
+              <h1 className="text-4xl ml-9 pt-10 font-semibold lg:text-white text-[#658864]">
                 Alikha Mutiara Hati
               </h1>
-              <p className="max-w-lg mt-6 mr-5 text-white">
+              <p className="max-w-lg mt-0 mr-5 text-white content-center bg-[#658864] p-10  rounded-md">
                 I'm 14 years old teenager from East Java, I'm greatly interested
                 with history, my hobbies are playing videogames and listening to
                 music, I've also been programming side project in my free time.
