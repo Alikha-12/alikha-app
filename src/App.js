@@ -4,9 +4,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1 className=" text-6xl hover:text-3xl">test2</h1>
-      </header>
+      <header className="App-header, bg-slate-50"></header>
     </div>
   );
 }
