@@ -20,14 +20,16 @@ function Hero() {
                 Alikha Mutiara Hati
               </h1>
               <p className="max-w-lg mt-6 mr-5 text-white">
-                I'm 14 years old teenager from East Java, my hobbies are playing
-                videogames, I've also been programming side project in my free
-                time. I showed an interest in technology since my early age,
-                Scratch was my favorite game when I was 8, I also did a few
-                Python course with iD Tech Instructors during the holiday and my
+                I'm 14 years old teenager from East Java, I'm greatly interested
+                with history, my hobbies are playing videogames and listening to
+                music, I've also been programming side project in my free time.
+                I showed an interest in technology since my early age, Scratch
+                was my favorite game when I was 8, I also did a few Python
+                course with iD Tech Instructors during the holiday and my
                 brother taught me JavaScript. My favorite yet simplest project
                 so far was Encoder and Decoder which uses to translate or crack
-                Caesar's cipher. My projects are on my GitHub profile
+                Caesar's cipher. My projects are on my GitHub profile, just
+                check it out!
               </p>
             </div>
           </div>

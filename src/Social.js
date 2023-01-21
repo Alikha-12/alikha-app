@@ -16,16 +16,16 @@ function Social() {
         </p>
         <div className="flex -mx-2">
           <a
-            href="https://www.reddit.com"
+            href="https://open.spotify.com/user/31hut7o4me5wyyunuebwd45p5yla"
             className="mx-2 text-white transition-colors duration-300 hover:text-[#658864] "
-            aria-label="Reddit"
+            aria-label="Spotify"
           >
             <BsSpotify className="w-4 h-5 fill-current" />
           </a>
           <a
-            href="#"
+            href="https://www.instagram.com/lyostein/"
             className="mx-2 text-white transition-colors duration-300 hover:text-[#658864]"
-            aria-label="Facebook"
+            aria-label="Instagram"
           >
             <AiFillInstagram className="h-5 w-5 fill-current" />
           </a>
