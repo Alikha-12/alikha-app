@@ -1,10 +1,13 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Social from "./Social";
+import Hero from "./Hero";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header, bg-slate-50"></header>
+    <div>
+      <Hero />
+      <Social />
     </div>
   );
 }
