@@ -30,7 +30,7 @@ function Social() {
             <AiFillInstagram className="h-5 w-5 fill-current" />
           </a>
           <a
-            href="https://github.com/Alyostein"
+            href="https://github.com/Alikha-12"
             className="mx-2 text-white transition-colors duration-300  hover:text-[#658864] "
             aria-label="Github"
           >
