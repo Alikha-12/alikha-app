@@ -1,6 +1,7 @@
 import React from "react";
 import { FaPython } from "react-icons/fa";
 import { DiJavascript1 } from "react-icons/di";
+import { DiReact } from "react-icons/di";
 
 function Skills() {
   return (
@@ -20,15 +21,17 @@ function Skills() {
             />
             <Skill
               skill="JavaScript"
-              description={"I was taught with React Native by my brother"}
+              description={
+                "I'm a beginner in JavaScript, not as advanced as in Python"
+              }
               children={<DiJavascript1 className=" text-[#658864] w-40 h-40" />}
             />
             <Skill
-              skill="Competitive"
+              skill="React"
               description={
-                "This world is full of competition, here we prepare our students to be competitive"
+                "I built this portfolio with React, my favorite CSS framework is Tailwind"
               }
-              children={<FaPython className=" text-[#658864] w-40 h-40" />}
+              children={<DiReact className=" text-[#658864] w-40 h-40" />}
             />
           </div>
         </div>
@@ -39,7 +42,7 @@ function Skills() {
 
 const Skill = ({ skill, description, children }) => {
   return (
-    <div className="flex flex-col items-center p-6 space-y-3 text-center bg-white rounded-xl hover:cursor-pointer hover:scale-105 duration-200 hover:shadow-teal-300  hover:shadow-2xl pb-10">
+    <div className="flex flex-col items-center p-6 space-y-3 text-center bg-white rounded-xl hover:cursor-pointer hover:scale-105 duration-200 hover:shadow-[#B7B78A]  hover:shadow-2xl pb-10">
       <span className="inline-block p-3 text-blue-500 rounded-full ">
         {children}
       </span>
