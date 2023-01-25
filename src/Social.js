@@ -23,7 +23,7 @@ function Social() {
             <BsSpotify className="w-4 h-5 fill-current" />
           </a>
           <a
-            href="https://www.instagram.com/lyostein/"
+            href="https://www.instagram.com/sparrowcide7/"
             className="mx-2 text-white transition-colors duration-300 hover:text-[#658864]"
             aria-label="Instagram"
           >
